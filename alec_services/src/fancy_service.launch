@@ -1,0 +1,5 @@
+<launch>
+	<node name="server" pkg="alec_services" type="service_server.py" output="screen" />
+	<arg name="my_args"/>
+	<node name="client" pkg="alec_services" type="service_client.py" output="screen" args="$(arg my_args)"/>
+</launch>
