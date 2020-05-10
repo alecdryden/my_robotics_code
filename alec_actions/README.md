@@ -18,4 +18,6 @@ Also, after adding the packages to your ROS project, run `catkin_make` to make a
 
 ## Usage
 
+# 1) Running the package with launch file:
+Input the following syntax to run the package from the launch file: 
 |Usage information for key methods and commands.|
