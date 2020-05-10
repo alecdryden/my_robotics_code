@@ -1,20 +1,12 @@
 
-# ROS package: |package name|
+# my_robotics_code
+## Author: Alec Dryden. Adapted from code by Dr. Picone.
 
-|Short introductory paragraph about your package. What does it do? Why is it useful?|
+## Packages (see packages for descriptions)
 
-## Requirements
+### alec_actions
 
-|Describe the type of system this will work on. ROS version, OS, etc.|
+### alec_services
 
-## Installation and configuration
+### alec_topics
 
-|Instructions for installation and configuration. Assume users know how to install ROS packages and can use `git`.|
-
-## Getting started
-
-|A short guide to using your package. Include important commands, etc.|
-
-## Usage
-
-|Usage information for key methods and commands.|
