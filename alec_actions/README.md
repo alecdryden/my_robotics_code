@@ -12,10 +12,9 @@ This package should be imported into the src (source) folder of your ROS project
 
 ## Getting started
 
+This package can be executed in two ways: 1) from a launch file or 2) from manually running nodes, as discussed in the next section. **First, make sure to run the line `source devel/setup.bash` before launching the package.**
 
-|A short guide to using your package. Include important commands, etc.|
-This package can be executed in two ways: 1) from a launch file or 2) from manually running nodes. **Make sure to run the line `source devel/setup.bash` before launching the package.**
-
+Also, after adding the packages to your ROS project, run `catkin_make` to make a new build that includes the new package.
 
 ## Usage
 
