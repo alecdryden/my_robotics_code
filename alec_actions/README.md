@@ -1,7 +1,6 @@
 # ROS package: |alec_actions|
 
-|Short introductory paragraph about your package. What does it do? Why is it useful?|
-The *alec_actions* package features a word count method using a service node and a client node. When it is executed, it outputs the word count of user defined input.
+The *alec_actions* package features a client-service interaction where responses could take a significant amount of time. In this case, action server provides feedback of the actual elapsed time after receiving a goal to output every second. It is seen that the results are not exact, but the package has a self-correctly method it uses for accuracy.
 
 ## Requirements
 
@@ -19,6 +18,6 @@ Also, after adding the packages to your ROS project, run `catkin_make` to make a
 
 ## Usage
 
-Input the following syntax to run the package from the launch file: `roslaunch alec_services fancy_service.launch my_args:="..."`
+Input the following syntax to run the package from the launch file: `roslaunch alec_actions fancy_action.launch`
 
-Replace "..." with your arguments. The launch file was edited to accept input by the client node, utilizing the package's word counting feature. Unfortunately, the package still outputs log information and adds it to the word count.
+The launch file will output a series of elapsed and remaining times up to five seconds.
