@@ -18,6 +18,10 @@ Also, after adding the packages to your ROS project, run `catkin_make` to make a
 
 ## Usage
 
-# 1) Running the package with launch file:
-Input the following syntax to run the package from the launch file: 
-|Usage information for key methods and commands.|
+### 1) Running the package with launch file
+Input the following syntax to run the package from the launch file: `roslaunch alec_services fancy_service.launch my_args:="..."`
+
+Replace "..." with your arguments. The launch file was edited to accept input by the client node, utilizing the package's word counting feature. Unfortunately, the package still outputs log information and adds it to the word count.
+
+### 2) Running the package manually
+Start by running `roscore` in a terminal window.
