@@ -1,6 +1,6 @@
 
 # my_robotics_code
-## Author: Alec Dryden. Adapted from code by Dr. Picone.
+## Author: Alec Dryden. Heavily adapted from code by Dr. Picone.
 
 ## Packages (see packages for descriptions)
 
